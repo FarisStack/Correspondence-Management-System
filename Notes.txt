@@ -1,0 +1,14 @@
+git config user.name
+git init
+git config user.name your_name
+git config user.email your_gmail
+git remote -v
+git remote add branch_name //repo path
+git remote -v
+git add .
+git commit -m "Commit"
+git branch
+git checkout -b "feature/loginpage"
+git branch
+git push --set-upstream origin feature/loginpage
+git clone --single-branch -b branch_name path_repo

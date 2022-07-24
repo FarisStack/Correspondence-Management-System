@@ -1,0 +1,69 @@
+.tableContainer {
+    overflow-y: auto;
+    width: 98% !important;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+    /* height: 70vh; */
+    /* height: 70vh */
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+th {
+    border: 1px solid #aaa;
+}
+td,
+th {
+    text-align: center !important;
+}
+.alignLeft {
+    text-align: left !important;
+}
+
+/* .avatarContainer {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+.avatar {
+    width: 55px !important;
+    height: 55px !important;
+}
+
+.status {
+    font-weight: bold;
+    font-size: 0.75rem;
+    color: white;
+    background-color: grey;
+    border-radius: 8;
+    padding: 3px 10px;
+    display: inline-block;
+}
+
+.isSeenIcon,
+.isPinnedIcon {
+    font-size: 1.4rem !important;
+    display: inline-block;
+}
+
+.attachmentsIcon {
+    font-size: 1.1rem !important;
+    color: white;
+}
+
+.tableHeaderCell {
+    z-index: 2;
+    position: sticky !important;
+    top: 0;
+    font-size: 1rem !important;
+    font-weight: bold;
+    background-color: #1565c0;
+    color: white !important;
+}

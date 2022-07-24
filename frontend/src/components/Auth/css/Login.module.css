@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.errMsg {
+    color: #d63031;
+}
+
+.main-container {
+    min-height: 100%;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url("../../../../public/images/bgLogin.png"); */
+    background-image: url("../../../../public/images/bgLoginPeople.jfif");
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 35%);
+    z-index: -1;
+}
+.paper-title {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}

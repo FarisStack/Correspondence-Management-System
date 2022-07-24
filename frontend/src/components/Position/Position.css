@@ -1,0 +1,178 @@
+body{
+    background-color: #f0f2f5;
+}
+.grid{
+    margin-top: 5px !important;
+}
+.submitButton {
+    font-size: 15px;
+    height: 55px;
+    width: 150px;
+    color: #fff;
+    background-color: #dc3545 !important;
+    border: none !important;
+}
+
+.addOrEditButton {
+    font-size: 15px;
+    height: 55px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.cancelButton {
+    font-size: 15px;
+    height: 55px;
+    width: 100px;
+    color: #212529 !important;
+    background-color: #f8f9fa !important;
+    cursor: pointer;
+}
+
+.divTooltip{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.navbarDiv {
+    display: flex;
+    margin-top: 70px;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.gridPositionField {
+    width: 350px;
+    border: none !important;
+}
+
+.gridParentField {
+    width: 350px;
+    border: none !important;
+}
+
+.positionField {
+    width: 100%;
+}
+
+.parentField {
+    width: 100%;
+}
+
+
+.divTooltip{
+    background: none !important;
+}
+
+.deleteButton {
+    height: 30px !important;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none !important;
+    background-color: #dc3545  !important;
+    color: #fff !important;
+    margin-right: 2px !important;
+}
+.deleteButton:hover {
+    box-shadow: black 1px 1.5px 3px !important;
+}
+
+.editButton:hover {
+    box-shadow: black 1px 2px 4px !important;
+}
+
+.editButton {
+    height: 30px !important;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none !important;
+    background-color: #1976d2 !important;
+    color: #fff !important;
+}
+
+.nodeValue {
+    width: 100px;
+    height: 100px;
+}
+
+.TopNode {
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: darkred;
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: black 1px 2px 4px !important;
+}
+
+.node {
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: #112B3C;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.title {
+    grid-area: h1;
+    padding: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.parentDiv{
+    text-align: center;
+    background-color: white;
+    margin: 25px auto;
+    width: 95%;
+    border-radius: 5px;
+    padding: 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+.superDiv{
+    min-height: 100%;
+    width: 100%;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    justify-content: center;
+}
+
+.treeDiv {
+    margin: 50px;
+    overflow-x: scroll;
+    border-radius: 5px;
+    padding: 50px;
+    min-height: 340px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+

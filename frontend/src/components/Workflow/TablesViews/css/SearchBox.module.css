@@ -1,0 +1,115 @@
+
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.searchBox {
+    /* width: 90%; */
+    /* height: 250px; */
+    max-height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 25px;
+
+    background-color: white;
+    border: solid;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+
+
+.Form {
+    width: 100%;
+    /* height: 200px; */
+    display: grid;
+    grid-template-areas: "search serial type perio emp " "datefrom dateto seabutt resbutt .";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+}
+
+.searchKeyword {
+    grid-area: search;
+}
+
+.workflowPriority {
+    grid-area: perio;
+}
+
+.WorkflowSerial {
+    grid-area: serial;
+}
+
+.workflowtype {
+    grid-area: type;
+}
+
+.employee {
+    grid-area: emp;
+}
+
+.datefrom {
+    grid-area: datefrom;
+}
+
+.dateto {
+    grid-area: dateto;
+}
+
+.searchButtons {
+    grid-area: seabutt;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.resetButtons {
+    grid-area: resbutt;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.searchButt {
+    width: 100px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.resetButt {
+    width: 100px;
+    height: 40px;
+}
+
+.textField {
+    width: 90%;
+    height: 100px;
+    margin-left: "auto";
+    margin-right: "auto";
+    padding-bottom: 0;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.input {
+    background-color: white;
+    height: 35px;
+    border-style: solid;
+    border-color: rgb(211, 209, 208);
+}
+
+.Form div {
+    height: 60px;
+}
+
+.InputLabel {
+    width: 90%;
+}
+
+.select {
+    padding: 10px;
+}

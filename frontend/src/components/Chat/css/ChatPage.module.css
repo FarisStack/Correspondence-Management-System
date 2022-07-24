@@ -1,0 +1,10 @@
+.chatPage {
+    background-image: url("./background.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+

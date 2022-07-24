@@ -1,0 +1,54 @@
+.search-area-grid {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "heading heading"
+        "folder filterBy"
+        "visibleField visibleField"
+        "empAs empAs"
+        ;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: repeat(4, minmax(70px, auto)); */
+    gap: 20px 15px; /* column-gap row-gap */
+}
+
+.heading {
+    grid-area: heading;
+}
+
+.filter-by {
+    grid-area: filterBy;
+}
+
+.folder {
+    grid-area: folder;
+}
+
+
+.visible-field {
+    grid-area: visibleField;
+}
+
+
+.employee-as {
+    grid-area: empAs;
+}
+
+
+@media (max-width: 768px) {
+    .search-area-grid {
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+            "heading"
+            "folder"
+            "filterBy"
+            "visibleField"
+            "empAs"
+            ;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: repeat(4, minmax(70px, auto)); */
+        gap: 20px 15px; /* column-gap row-gap */
+    }
+    
+}

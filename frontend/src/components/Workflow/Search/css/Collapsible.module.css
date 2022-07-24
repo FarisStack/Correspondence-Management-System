@@ -1,0 +1,34 @@
+.collapsible {
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.toggle {
+    align-self: flex-start !important;
+    background: #0084ff;
+    border: unset;
+    cursor: pointer;
+    font: unset;
+    padding: 0.3rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.content-parent {
+    height: 0px;
+    overflow: hidden;
+    transition: height ease 0.3s;
+}
+
+
+.content {
+    height: auto;
+    border: 2px solid steelblue;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 0.7rem;
+}
+
+

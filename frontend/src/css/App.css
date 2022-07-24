@@ -1,0 +1,51 @@
+:root {
+  --highlight-color: #d8d8d8;
+  --breakpoint-md: 768px;
+
+}
+
+.app {
+  height: 100%;
+  /* display: flex; */
+  position: relative;
+  /* background-color: #e7ebf0; */
+}
+.app .refreshing {
+  /* Show Loading... in App.tsx untill the state refreshing is set to false */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app main {
+  padding: 24px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.app main header {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #efefef;
+}
+.app main header h1 {
+  display: flex;
+  align-items: center;
+  transform: translateX(-20px);
+}
+.app main footer {
+  margin-top: auto;
+  color: #888;
+  text-align: center;
+}
+
+.app main footer a {
+  text-decoration: none;
+  color: #888;
+}
+.app main footer a:hover {
+  text-decoration: underline;
+}
+

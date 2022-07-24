@@ -1,0 +1,124 @@
+.smallBox {
+    width: 95%;
+    height: 70px;
+    background-color: white;
+    margin: 25px auto;
+    border-radius: 5px;
+    padding: 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+.box {
+    width: 95%;
+    background-color: white;
+    margin: 25px auto;
+    border-radius: 5px;
+    padding: 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+.header {
+    width: 15%;
+    height: 50px;
+}
+
+.Form {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "name phoneNumber"
+        "email hireDate"
+        "city department"
+        "maritalStatus gender"
+        ". seabutt";
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 20px 15px;
+}
+
+.name {
+    grid-area: name;
+}
+
+.email {
+    grid-area: email;
+}
+
+.phoneNumber {
+    grid-area: phoneNumber;
+}
+
+.maritalStatus {
+    grid-area: maritalStatus;
+}
+
+.city {
+    grid-area: city;
+    /* width: 200px; */
+}
+
+.department {
+    grid-area: department;
+    /* width: 200px; */
+    /* width: 100%; */
+}
+
+.gender {
+    grid-area: gender;
+}
+
+.hireDate {
+    grid-area: hireDate;
+}
+
+.searchButtons {
+    grid-area: seabutt;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.resetButtons {
+    grid-area: resbutt;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.searchButt {
+    width: 100px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.resetButt {
+    width: 100px;
+    height: 40px;
+}
+
+.textField {
+    width: 90%;
+    height: 100px;
+    margin-left: "auto";
+    margin-right: "auto";
+    padding-bottom: 0;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.input {
+    background-color: white;
+    height: 35px;
+    border-style: solid;
+    border-color: rgb(211, 209, 208);
+}
+
+.Form div {
+    height: 60px;
+}
+
+.InputLabel {
+    width: 90%;
+}
+
+.select {
+    padding: 10px;
+}

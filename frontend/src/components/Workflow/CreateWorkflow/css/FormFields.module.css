@@ -1,0 +1,47 @@
+.formFieldsGrid {
+    display: grid;
+    grid-template-areas:
+        "wType wPriority"
+        "wSubject wSubject"
+        "recipientsSelect recipientsSelect" 
+        "ccSelect ccSelect";
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    row-gap: 16px;
+    column-gap: 20px;
+    padding-top: 10px;
+    /* width: 100%; */
+    width: 95%;
+    margin: auto;
+}
+
+/* -------------- Grid Areas ------------------- */
+.workflow-type {
+    grid-area: wType;
+}
+.workflow-priority {
+    grid-area: wPriority;
+}
+.workflow-subject {
+    grid-area: wSubject;
+}
+.recipients-autocomplete {
+    grid-area: recipientsSelect;
+}
+.cc-autocomplete {
+    grid-area: ccSelect;
+}
+/* ---------------------------------------------- */
+
+@media (max-width: 992px) {
+    .formFieldsGrid {
+        display: grid;
+        grid-template-areas:
+            "wType"
+            "wPriority"
+            "wSubject"
+            "recipientsSelect"
+            "ccSelect";
+        grid-template-columns: 100%; /*1 column only in each row*/
+    }
+}

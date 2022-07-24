@@ -1,0 +1,232 @@
+.input-text-field {
+    border: rgb(6, 6, 34);
+    color: red;
+}
+
+.edit {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #c4eef2;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    position: relative;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(270deg, #3fa1a9, #79f1a4);
+    margin-top: 20px;
+}
+
+.img-wrap {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img-upload:before {
+    content: "\f093";
+    font-size: 90px;
+    position: absolute;
+    padding-top: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #63d3a6;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #fff;
+}
+
+.img-upload:hover:before {
+    opacity: 1;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+.change-password{
+    width: 100%;
+    justify-content: center;
+}
+.basic-info-form {
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    margin: 30px auto;
+    display: grid;
+    /* grid-template-areas: "fi mi la" "username username hiredate "; */
+    grid-template-areas: "fi" "mi" "la" "username" "hiredate";
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px 20px;
+    /*row column*/
+}
+
+.tableContainer {
+    width: 100%;
+    padding: 20px;
+}
+
+.basic-info-form2 {
+    width: 50%;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    margin: 30px auto;
+    display: grid;
+    /* grid-template-areas: "email phone city"  "gender birthdate  marital"; */
+    grid-template-areas: "email" "phone" "city"  "gender" "birthdate"  "marital";
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(1, 1fr);
+    /*3 columns, of equal width */
+    /* grid-template-rows: repeat(7, 1fr); 7 columns, of equal width */
+    gap: 30px 20px;
+    /*row column*/
+}
+
+/* .basic-info-form .uploadPic {
+    grid-area: pic;
+    font-weight: bold;
+} */
+
+.basic-info-form .actions {
+    display: flex;
+    justify-items: right;
+    grid-area: btn;
+}
+
+ 
+/*.basic-info-form .main-heading {
+    grid-area: h1;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} */
+
+/* ================================= */
+
+.basic-info-form .first-name {
+    grid-area: fi;
+}
+
+.basic-info-form .middle-name {
+    grid-area: mi;
+}
+
+.basic-info-form .last-name {
+    grid-area: la;
+}
+
+.basic-info-form .username {
+    grid-area: username;
+}
+
+.basic-info-form .hire-date {
+    grid-area: hiredate;
+}
+
+
+/* ================================= */
+
+.basic-info-form2 .personal-email {
+    grid-area: email;
+}
+
+.basic-info-form2 .phone-number {
+    grid-area: phone;
+}
+
+.basic-info-form2 .birth-date {
+    grid-area: birthdate;
+}
+
+.basic-info-form2 .gender-radio {
+    grid-area: gender;
+    display: flex;
+    justify-items: center;
+}
+
+.basic-info-form2 .marital-status-radio {
+    grid-area: marital;
+    display: flex;
+    justify-items: center;
+}
+
+.basic-info-form2 .city-select {
+    grid-area: city;
+}
+
+/* ================================= */
+
+.basic-info-form .submit-btn {
+    grid-area: btn;
+    transition: all 1s;
+}
+.submit-btn:hover,
+.submit-btn:active {
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.actions {
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #c4eef2;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    position: relative;
+    
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #c4eef2;
+    border-color: #c4eef2;
+    color: black;
+}
+
+.actions .button--alt {
+    color: #014034;
+    margin: 10px;
+}
+
+.actions .button {
+    background-color: #038c73;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .basic-info-form, .basic-info-form2 {
+        width: 100%
+    }
+}

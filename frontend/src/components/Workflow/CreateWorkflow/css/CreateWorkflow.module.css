@@ -1,0 +1,66 @@
+/* .add-workflow {
+    background-color: #F0F2F5;
+} */
+
+.create-workflow-container {
+    padding: 30px 5%;
+    /* background-image: url("../../../../../public/images/workflow3.jpg"); */
+    background-size: cover;
+    /* background-color: #f7f4f4; */
+    background-color: #e7ebf0;
+}
+
+.page-h1 {
+    font-size: 2.2rem;
+    /* margin: 20px 0px 30px 0px; */
+    color: #f1f1f1;
+    margin: 0px 0px 55px 0px;
+
+    text-transform: capitalize;
+    text-align: center;
+
+    padding: 7px;
+    /* letter-spacing: 4px; */
+    background-color: #1976d2;
+    /* border: #ccc solid 2px; */
+    border-radius: 10px 10px 0 0;
+}
+.page-h1-create-new-action {
+    font-size: 2.2rem;
+    margin: 20px 0px 30px 0px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.submitBtnContainer {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.btnTheme {
+    cursor: pointer;
+    color: #fff;
+    background-color: #1967d2;
+    border: 1px solid black;
+    outline: none !important;
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: auto;
+}
+
+.btnTheme:hover {
+    background-color: #73a6ec;
+    color: black;
+}
+
+.merge {
+    border: solid #a2a3a3 1px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .page-h1 {
+        font-size: 1.5rem;
+    }
+}

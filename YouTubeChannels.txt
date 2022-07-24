@@ -1,0 +1,12 @@
+1. Channel: PedroTech
+How To Configure TypeScript in NodeJS - Beginners Tutorial
+https://www.youtube.com/watch?v=SEnAS_ooHeA&list=PLgUF97AdWFwjCbrqyHawbBGGkma_a-cwa
+
+2. Channel: willjw3
+This is the best video for project setup with Sequelize:
+Title: Using Sequelize With TypeScript: Basic Project Setup
+Link: https://www.youtube.com/watch?v=VyEKwp6Q4fY&list=PLgUF97AdWFwjCbrqyHawbBGGkma_a-cwa
+
+3. Channel: Codeweb - YD
+NodeJS, Express Setup and Installation With Typescript & MySQL (Restful API)
+https://www.youtube.com/watch?v=8amNwPFO3bU&list=PLgUF97AdWFwjCbrqyHawbBGGkma_a-cwa

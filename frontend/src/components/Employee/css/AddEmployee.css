@@ -1,0 +1,191 @@
+.main-container {
+    min-height: 100%;
+    width: 100%;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-employee-form {
+    /* background-color: white;
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important; */
+    
+    background-color: white; 
+    width: 85%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px #ddd;
+
+    padding: 30px 30px;
+    /* margin: 25px auto; */
+    margin: 30px auto 30px;
+    display: grid;
+
+    box-shadow: 4px 4px 6px 6px rgb(222, 214, 214);
+
+    grid-template-areas:
+        "h1 h1 h1"
+        "fi mi la"
+        "username username username"
+        "email email phone"
+        "birthdate hiredate city"
+        "gender marital marital"
+        "position position position"
+        "classification classification classification"
+        "jobtitle jobtitle jobtitle"
+        "startDate endDate ."
+        ". . btn";
+    grid-template-columns: repeat(3, 1fr); /*3 columns, of equal width */
+    /* grid-template-rows: repeat(7, 1fr); 7 columns, of equal width */
+    gap: 30px 20px; /*row column*/
+}
+
+.add-employee-form .uploadPic {
+    grid-area: pic;
+    font-weight: bold;
+}
+
+.add-employee-form .main-heading {
+    grid-area: h1;
+
+    padding: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: rgb(56, 56, 123);
+}
+/* ================================= */
+.add-employee-form .first-name {
+    grid-area: fi;
+}
+.add-employee-form .middle-name {
+    grid-area: mi;
+}
+.add-employee-form .last-name {
+    grid-area: la;
+}
+
+/* ================================= */
+.add-employee-form .personal-email {
+    grid-area: email;
+}
+.add-employee-form .phone-number {
+    grid-area: phone;
+}
+/* ================================= */
+.add-employee-form .username {
+    grid-area: username;
+}
+
+.add-employee-form .birth-date {
+    grid-area: birthdate;
+}
+.add-employee-form .hire-date {
+    grid-area: hiredate;
+}
+
+.add-employee-form .gender-radio {
+    grid-area: gender;
+}
+
+.add-employee-form .marital-status-radio {
+    grid-area: marital;
+    padding-left: 20px;
+}
+
+.add-employee-form .city-select {
+    grid-area: city;
+}
+/* --------------- Start Position Section ------------------- */
+.add-employee-form .position-multiselect {
+    grid-area: position;
+    position: relative;
+    cursor: pointer;
+}
+.add-employee-form .classification-select {
+    grid-area: classification;
+}
+.add-employee-form .jobtitle-multiselect {
+    grid-area: jobtitle;
+    position: relative;
+    cursor: pointer;
+}
+.add-employee-form .start-date {
+    grid-area: startDate;
+}
+.add-employee-form .end-date {
+    grid-area: endDate;
+}
+
+.add-employee-form .submit-btn {
+    padding: 15px 4px;
+    grid-area: btn;
+    transition: all 1s;
+
+    
+    font-size: 19px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+}
+
+/* .submit-btn:hover,
+.submit-btn:active {
+    border-radius: 15px;
+    transition: all 1s;
+} */
+.submit-btn:hover {
+    transition: all .5s;
+    border: 2px solid rgb(79, 78, 78);
+}
+/* ============ React Multiselect Custom Styles: ============================ */
+.searchWrapper {
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+.searchWrapper:hover {
+    border-color: #444;
+}
+
+.jobtitle-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+}
+.multiselect-container .icon_down_dir {
+    width: 11px;
+    height: 11px;
+    opacity: 0.5;
+    right: 12px;
+}
+@media (max-width: 992px) {
+    .add-employee-form {
+        width: 80%;
+        border-radius: 4px;
+        box-shadow: 0px 0px 4px 0px #ddd;
+
+        padding: 0 5% 5% 5%;
+        margin: 40px auto;
+        display: grid;
+
+        grid-template-areas:
+            "h1" "fi" "mi" "la" "username" "email" "phone"
+            "birthdate" "hiredate" "city" "gender" "marital"
+            "position" "classification" "jobtitle" "startDate" "endDate"
+            "btn";
+        grid-template-columns: 100%;
+        /* Each field takes full width (1 column in each row) */
+        /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+        gap: 20px 20px;
+    }
+    .add-employee-form .marital-status-radio {
+        padding-left: 0 !important;
+        /* removed the margin-left */
+    }
+}

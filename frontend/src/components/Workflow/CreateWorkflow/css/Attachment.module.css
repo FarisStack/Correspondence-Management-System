@@ -1,0 +1,109 @@
+.dropzone {
+    border: 2px dotted gray;
+    background-color: #f5f6f9;
+    height: 300px;
+    /* width: 100%; */
+    width: 100%;
+    margin: 16px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.attachment100 {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.attachment95 {
+    width: 95%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.selected-images {
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+    margin: 16px;
+    background-color: antiquewhite;
+}
+
+.filePreviewItem {
+    border: 2px dashed #aaa;
+    border-radius: 3px;
+    width: 100%;
+    margin: auto;
+    /* height: 100px;
+    margin-bottom: 15px; */
+
+    height: 60px;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1.4s;
+    transform: translateY(10);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.fileThumbnail {
+    height: 100%;
+    /* width: 10%; */
+}
+.myBtnDelete {
+    cursor: pointer;
+    height: 100%;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    /* border-radius: 10px; */
+    /* color: #e91e63 !important; */
+    /* color: rgb(166, 23, 23); */
+    /* margin: 10px;
+    padding: 0 25px; */
+    
+    border: 10px rgb(145, 59, 59) solid;
+    font-weight: bolder;
+
+    /* font-weight: 700; */
+    font-size: 17px;
+}
+
+/* .myBtnDelete:hover {
+    background-color: rgb(204, 133, 133);
+    border: 2px black solid;
+    color: black;
+} */
+
+
+
+.previewFiles {
+    width: 100%;
+    margin: auto;
+    text-align: start;
+    background-color: #f5f6f9;
+
+    border: 1px solid #f5f6f9;
+    margin-top: -16px;
+
+    /* border: 1px black solid ; */
+}
+
+.span {
+    margin-left: 15px;
+}
+
+.h3 {
+    margin: 50px 0px 10px 12px;
+    font-size: 20px;
+}
+
+
+@media(max-width: 768px) {
+    .dropzone {
+        font-size: 1rem;
+    }
+}

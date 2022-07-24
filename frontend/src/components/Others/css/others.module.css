@@ -1,0 +1,80 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.h1 {
+    color: tomato;
+    font-size: 2.5rem;
+    margin: 15px 0;
+    font-size: 3rem;
+    text-align: center;
+}
+.p {
+    font-size: 1.2rem;
+    padding: 10px 10px 40px;
+    text-align: center;
+}
+.pageNotFound {
+    font-size: 2rem;
+    padding: 10px 10px 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.btnGoBack {
+    background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
+    color: white;
+    padding: 15px 5px;
+    font-size: 1.2rem;
+    height: 48;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+    width: 25%;
+}
+.btnGoBack:hover {
+    transition: all 0.4s ease-in-out;
+    font-size: 1.6rem;
+    padding: 20px 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    gap: 25px;
+}
+.btnGoBack a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 1.5rem;
+    }
+    .p, .pageNotFound {
+        font-size: 1rem;
+        padding: 10px 10px 30px;
+    }
+    .options {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .btnGoBack {
+        width: 40%;
+        font-size: 1rem;
+    }
+    .btnGoBack:hover {
+        font-size: 1.2rem;
+    }
+}

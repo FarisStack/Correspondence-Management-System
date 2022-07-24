@@ -1,0 +1,4 @@
+node_modules/
+# public/actions_attachments
+actions_attachments/
+# .env

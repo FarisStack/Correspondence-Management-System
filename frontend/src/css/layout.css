@@ -1,0 +1,39 @@
+.PD_LEFT_270 {
+    /* Add padding left when the Sidebar is open (expanded) */
+    padding-left: 270px;
+}
+.PD_LEFT_80 {
+    /* Add padding left when the Sidebar is collapsed */
+    padding-left: 80px;
+}
+.PD_TOP {
+    padding-top: 64px
+}
+
+.btn-toggle {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: #353535;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    /* display: flex; */
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .btn-toggle {
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    /* When the screen width is <= 600px, the Navbar height decreases from 64px to 48px */
+    .PD_TOP {
+        padding-top: 52px
+    }
+}

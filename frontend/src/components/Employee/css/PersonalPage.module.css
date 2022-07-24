@@ -1,0 +1,220 @@
+/* body {
+    font-family: "Hind Guntur", sans-serif;
+    color: #054231;
+    display: flex;
+    justify-content: center;
+    background: #49afa8;
+    background-image: url("https://github.com/OlgaKoplik/CodePen/blob/master/leaf.png?raw=true");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 200% -40%;
+    background-size: 80%;
+} */
+
+/*
+@font-face {
+    font-family: "FontAwesome";
+    src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+} */
+
+.card {
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    background-color: white;
+    margin: 25px auto;
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+@keyframes open {
+    0% {
+        background-position: 166% -25%, 220% -69%;
+    }
+    100% {
+        background-position: 120% -5%, 200% -40%;
+    }
+}
+
+/* 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.field {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(270deg, #3fa1a9, #79f1a4);
+    margin-top: 20px;
+}
+
+.img-wrap {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid #3f51b5;
+    text-align: center;
+}
+
+.img-upload:before {
+    content: "Click the 'Edit' button to change your avatar";
+    font-size: 16px;
+    position: absolute;
+    padding-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #1976d2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #fff;
+}
+
+.img-upload:hover:before {
+    opacity: 1;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #676767;
+}
+
+input {
+    border-radius: 15px;
+    border: 1px solid #b7b7b7;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #1976d2;
+}
+
+input::placeholder {
+    color: #bebebe;
+}
+
+/* 
+.name {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #676767;
+    max-width: 220px;
+    overflow-wrap: break-word;
+}
+
+.status {
+    text-align: center;
+    max-width: 220px;
+    overflow-wrap: break-word;
+}
+*/
+
+.button {
+    position: relative;
+    color: #054231;
+    letter-spacing: 1px;
+    margin: 20px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    background: #64d488;
+    width: 200px;
+    height: 50px;
+}
+
+* .save {
+    font-weight: 600;
+    left: -20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 20px;
+    box-shadow: 20px 0px 40px 0px #63d3a6;
+}
+
+.edit {
+    color: #fff;
+    width: 180px;
+}
+
+.button:hover {
+    left: 0;
+    color: #fff;
+    box-shadow: 0px 0px 20px 0px #63d3a6;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+.fa-instagram {
+    position: absolute;
+    color: #79f1a4;
+    top: 3%;
+    right: 2%;
+    font-size: 38px;
+}
+
+.fa-instagram:hover {
+    font-size: 42px;
+    color: #caff81;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}

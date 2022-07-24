@@ -1,0 +1,14 @@
+
+.container {
+    background-color: white;
+    margin: 25px auto;
+    width: 95%;
+    border-radius: 5px;
+    padding: 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px !important;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+}

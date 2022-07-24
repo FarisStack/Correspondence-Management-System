@@ -1,0 +1,33 @@
+.formFieldsGrid {
+    display: grid;
+    grid-template-areas:
+        "recipientsSelect" 
+        "ccSelect";
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    row-gap: 16px;
+    column-gap: 20px;
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+/* -------------- Grid Areas ------------------- */
+
+.recipients-autocomplete {
+    grid-area: recipientsSelect;
+}
+.cc-autocomplete {
+    grid-area: ccSelect;
+}
+/* ---------------------------------------------- */
+
+@media (max-width: 992px) {
+    .formFieldsGrid {
+        display: grid;
+        grid-template-areas:
+            "recipientsSelect"
+            "ccSelect";
+        grid-template-columns: 100%; /*1 column only in each row*/
+    }
+}

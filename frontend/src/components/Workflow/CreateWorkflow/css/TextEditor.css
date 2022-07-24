@@ -1,0 +1,108 @@
+.text-editor .rdw-editor-main {
+  background-color: #f5f6f9;
+  border: 1px solid #000000;
+  margin-bottom: 17px;
+  padding: 7px 17px 7px 17px;
+  line-height: 27px;
+}
+
+.text-editor .public-DraftEditor-content {
+  min-height: 300px;
+}
+.text-editor .rdw-dropdown-optionwrapper {
+  width: 100% !important;
+}
+.text-editor select,
+.text-editor textarea,
+.text-editor input[type="text"] {
+  margin: 0 !important;
+  border-radius: 8px;
+  border: 1px solid #f0f5f7;
+  padding: 5px 20px;
+  font-size: 15px;
+  background: #f0f5f7;
+  width: 100% !important;
+  color: #696969;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: none;
+  height: 60px;
+}
+.text-editor input,
+.text-editor button,
+.text-editor select,
+.text-editor textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.text-editor label {
+  padding: 0;
+  font-size: 17px;
+  color: #202124;
+  font-weight: 500;
+  margin: 27px 0 10px;
+  display: block;
+}
+.text-editor .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  letter-spacing: 0;
+  padding: 9px 30px;
+  font-size: 15px;
+  line-height: 2;
+  border-radius: 8px;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: all 0.3s ease-in-out 0s;
+}
+.text-editor .btn,
+.text-editor button {
+  outline: none !important;
+}
+/* .text-editor .btn__theme {
+  color: #fff;
+  background-color: #1967d2;
+  border-color: #1967d2;
+} */
+
+.text-editor .masterContainer100 {
+  border: 1px solid #ccc;
+  /* box-shadow: 0 6px 15px 0 rgb(64 79 104 / 5%); */
+  padding: 0px 13px;
+  width: 100%;
+  /* width: 95%; */
+  margin: 30px auto;
+}
+
+.text-editor .masterContainer95 {
+  border: 1px solid #ccc;
+  /* box-shadow: 0 6px 15px 0 rgb(64 79 104 / 5%); */
+  padding: 0px 13px;
+  width: 95%;
+  margin: 30px auto;
+}
+.text-editor .errors {
+  color: #f44336;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+.text-editor .btn__add {
+  margin: 37px auto;
+  display: table;
+  padding: 14px 37px 14px 37px;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.editorClassName{
+  box-shadow: 4px 4px #cac9c9;
+}
