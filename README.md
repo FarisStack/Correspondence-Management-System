@@ -64,7 +64,7 @@ https://docs.google.com/presentation/d/1WG8mI9JSiwxuydh7glXp416hBfBjR7a8/edit?us
 - Convenient Rich-Text Editor
 ![image](https://user-images.githubusercontent.com/54215462/218524043-cc9c1995-0bbe-409d-b76e-ba68ec43b33c.png)
 
-- Attach multiple files with the email before sending.+ The drag and drop feature
+- Attach multiple files with the email before sending. In addition to the drag and drop feature
 ![image](https://user-images.githubusercontent.com/54215462/218524195-2c42743d-8b7b-49a9-9f34-7593834a1ba8.png)
 
 - Inbox page shows the user all their workflows which were received from other users. Emails where users put you as a direct recipient (consignee)
