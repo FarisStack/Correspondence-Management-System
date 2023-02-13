@@ -177,7 +177,7 @@ https://docs.google.com/presentation/d/1WG8mI9JSiwxuydh7glXp416hBfBjR7a8/edit?us
 <img width="583" alt="image" src="https://user-images.githubusercontent.com/54215462/218527553-27bd94e3-2313-4530-a8c8-46300691dc95.png">
 <hr />
 
-## 26. Database Relational Schema
+## Database Relational Schema
 ![image](https://user-images.githubusercontent.com/54215462/218527742-66fa4667-2740-48b2-98ab-eceb1ffc60dd.png)
 <hr />
 
